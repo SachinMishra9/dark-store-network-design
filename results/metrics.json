@@ -1,0 +1,87 @@
+{
+  "radius_km": 3.0,
+  "comparison": [
+    {
+      "design": "k-means placement",
+      "radius_km": 3.0,
+      "stores": 14,
+      "coverage_pct": 90.3,
+      "avg_delivery_km": 1.76,
+      "avg_utilisation_pct": 47.8,
+      "monthly_cost_lakh": 272.7,
+      "cost_per_served_order": 46.2
+    },
+    {
+      "design": "MILP optimum",
+      "radius_km": 3.0,
+      "stores": 14,
+      "coverage_pct": 91.9,
+      "avg_delivery_km": 1.76,
+      "avg_utilisation_pct": 47.9,
+      "monthly_cost_lakh": 267.6,
+      "cost_per_served_order": 45.9
+    }
+  ],
+  "radius_sweep": [
+    {
+      "design": "MILP optimum",
+      "radius_km": 1.5,
+      "stores": 19,
+      "coverage_pct": 45.3,
+      "avg_delivery_km": 0.97,
+      "avg_utilisation_pct": 20.9,
+      "monthly_cost_lakh": 413.4,
+      "cost_per_served_order": 60.0
+    },
+    {
+      "design": "MILP optimum",
+      "radius_km": 2.0,
+      "stores": 19,
+      "coverage_pct": 71.4,
+      "avg_delivery_km": 1.31,
+      "avg_utilisation_pct": 30.5,
+      "monthly_cost_lakh": 337.6,
+      "cost_per_served_order": 51.4
+    },
+    {
+      "design": "MILP optimum",
+      "radius_km": 2.5,
+      "stores": 17,
+      "coverage_pct": 83.2,
+      "avg_delivery_km": 1.53,
+      "avg_utilisation_pct": 40.0,
+      "monthly_cost_lakh": 296.8,
+      "cost_per_served_order": 47.8
+    },
+    {
+      "design": "MILP optimum",
+      "radius_km": 3.0,
+      "stores": 14,
+      "coverage_pct": 91.9,
+      "avg_delivery_km": 1.76,
+      "avg_utilisation_pct": 47.9,
+      "monthly_cost_lakh": 267.6,
+      "cost_per_served_order": 45.9
+    },
+    {
+      "design": "MILP optimum",
+      "radius_km": 3.5,
+      "stores": 15,
+      "coverage_pct": 95.4,
+      "avg_delivery_km": 1.78,
+      "avg_utilisation_pct": 52.8,
+      "monthly_cost_lakh": 259.5,
+      "cost_per_served_order": 46.0
+    },
+    {
+      "design": "MILP optimum",
+      "radius_km": 4.0,
+      "stores": 12,
+      "coverage_pct": 95.6,
+      "avg_delivery_km": 1.96,
+      "avg_utilisation_pct": 61.1,
+      "monthly_cost_lakh": 253.9,
+      "cost_per_served_order": 45.0
+    }
+  ]
+}
